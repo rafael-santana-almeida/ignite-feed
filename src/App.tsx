@@ -1,4 +1,5 @@
 import { Header } from './components/Header';
+import { Post } from './components/Post';
 import { Sidebar } from './components/Sidebar';
 
 import styles from './App.module.css';
@@ -14,7 +15,10 @@ export function App() {
         <Sidebar />
         
         <main>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus obcaecati esse ad enim inventore quaerat! Nobis expedita dolor fugiat? Tempora doloremque laborum at illo corporis suscipit ex, id quia consectetur.
+          <Post />
+          <Post />
+          <Post />
+          <Post />
         </main>
       </div>
     </>
